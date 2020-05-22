@@ -19,7 +19,7 @@ RUN cd /opt/java-apps && \
     wget -q https://downloads.imagej.net/fiji/latest/fiji-linux64.zip && \
     unzip fiji-linux64.zip
 RUN cd /opt/java-apps/Fiji.app/plugins && \
-    wget -q https://github.com/ome/omero-insight/releases/download/v5.5.9/omero_ij-5.5.9-all.jar
+    wget -q https://github.com/ome/omero-insight/releases/download/v5.5.11/omero_ij-5.5.11-all.jar
 
 RUN /opt/java-apps/Fiji.app/ImageJ-linux64 --update add-update-site BF https://sites.imagej.net/Bio-Formats/
 
